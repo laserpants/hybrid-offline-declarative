@@ -88,7 +88,16 @@ insort [] = []
 insort (x:xs) = insert x (insort xs)
 ```
 
-The point here is not to show that one language is better than the other -- these two programs have very different behavior, although they have the same external meaning. In particular, performance considerations have been completely left out of the discussion. Poor [cache locality](https://en.wikipedia.org/wiki/Locality_of_reference) is often mentioned by critics as an argument against this programming paradigm, especially when applying some of the ideas mentioned here to other languages (those based on the conventional, stateful model of computation). Still, there is lots to be gained by adding a more declarative set of tools to the repertoire of most programmers. Many modern JavaScript libraries (e.g. Facebook's [React](https://facebook.github.io/react/)) follow this philosophy and rely less on state and object-oriented programming practices. In React, a guiding principle is that components should be stateless and behave as (referentially transparent) functions of their input (properties). Even though JavaScript is not a functional programming language, recent additions to the ECMAScript standard make this declarative approach a more natural choice.
+The point here is not to show that one language is better than the other -- these two programs have very different behavior, although they have the same external meaning. In particular, performance considerations have been completely left out of the discussion. Poor [cache locality](https://en.wikipedia.org/wiki/Locality_of_reference) is often mentioned by critics as an argument against this programming paradigm, especially when applying some of the ideas mentioned here to other languages (those based on the conventional, stateful model of computation). Still, there is lots to be gained by adding a more declarative set of tools to the repertoire of most programmers. Many modern JavaScript libraries (e.g. Facebook's [React](https://facebook.github.io/react/)) follow this philosophy and rely less on state and object-oriented programming practices. In React, a guiding principle is that components should be stateless and behave as ([referentially transparent](https://wiki.haskell.org/Referential_transparency)) functions of their input (properties). Even though JavaScript is not a functional programming language, recent additions to the ECMAScript standard make this declarative approach a more natural choice.
+
+In summary, declarative and functional programming can help us to:
+
+* create clear and simple abstractions;
+* make better use of ideas and knowledge from other branches of science and engineering;
+* apply techniques of equational reasoning to program code; 
+* write better concurrent programs; 
+* introduce less bugs; and
+* talk about correctness properties of programs in more formal ways.
 
 
 
