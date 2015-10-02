@@ -37,6 +37,6 @@ The [Groundfork synchronization framework](https://github.com/johanneshilden/gro
 
 Groundfork is open-source software and primarily intended to be used in browser-based applications, i.e., those using the hybrid app approach described earlier.
 
-The solution implements a software design pattern known as the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern). Access to application resources is relayed through a programming interface which enables the system to maintain a transaction log of changes while the device is offline. These changes are subsequently propagated and synchronized with other devices with the help of a web service, when connectivity is available. This service can run in the cloud or on a host system available to all network nodes. 
+The solution implements a software design pattern known as the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern). Access to application resources is relayed through a programming interface which enables the system to maintain a [transaction log](https://en.wikipedia.org/wiki/Transaction_log) of changes while the device is offline. These changes are subsequently propagated and synchronized with other devices with the help of a web service, when connectivity is available. This service can run in the cloud or on a host system available to all network nodes. 
 
 ## Declarative programming techniques
