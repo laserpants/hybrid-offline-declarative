@@ -26,7 +26,7 @@ Despite large-scale adaptation of smartphone technologies, bandwidth and network
 
 #### Ground computing as a catalyst to drive innovation
 
-For a system to be able to operate effortlessly offline, the conventional client-server model is clearly inadequate. Since this aspect of system behavior is largely negelected in other parts of the world, modern cloud architecture is doing little more (if anything) to solve the problem. Instead we need to look beyond the cloud, to an architectural style sometimes referred to as *ground computing* -- applications that run on the device (i.e., on the ground) with robust data replication built in as an integral part of the software stack. 
+For a system to be able to operate effortlessly offline, the conventional client-server model is clearly inadequate. Since this aspect of system behavior is largely neglected in other parts of the world, modern cloud architecture is doing little more (if anything) to solve the problem. Instead we need to look beyond the cloud, to an architectural style sometimes referred to as *ground computing* -- applications that run on the device (i.e., on the ground) with robust data replication built in as an integral part of the software stack. 
 
 The [Groundfork synchronization framework](https://github.com/johanneshilden/groundfork-js) was designed specifically for these environments. Important requirements were that:
 
