@@ -8,7 +8,7 @@ Hybrid mobile web applications behave more like native apps, but are created usi
 * inherently cross-platform; and
 * founded on open standards.
 
-UX designers can leverage their existing web design skills and rely on comprehensive CSS toolkits (e.g. [http://getbootstrap.com/](Twitter Bootstrap)) to build sophisticated and highly interactive user interfaces with modern, responsive features. For businesses, the advantage is that their development team can target more than one platform, which means a single code base to maintain.
+UX designers can leverage their existing web design skills and rely on CSS toolkits (e.g. [Twitter Bootstrap](http://getbootstrap.com/)) to build sophisticated and highly interactive user interfaces with modern, responsive features. For businesses, the advantage is that their development team can target more than one platform, which means a single code base to maintain.
 
 The overall trend today is that more and more applications run either in the browser, or in a browser-like environment. Language technologies are quickly adapting to keep up with this new reality. Compilers and other build tools are already capable of producing code that runs in legacy browsers and performs well even on low-end devices. In fact, modern JavaScript runtimes have performance characteristics comparable to native code execution.
 
