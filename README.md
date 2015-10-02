@@ -14,14 +14,19 @@ The overall trend today is that more and more applications run either in the bro
 
 Although there may be capabilities unique to a specific device which are unavailable using the hybrid app approach, plugins and native APIs can be utilized to target most platform-specific requirements.
 
-Some questions to consider before making (taking) the decision to develop a hybrid app:
+Some questions to consider before making the decision to develop a hybrid app:
 
 * What are the target devices?
 * What does the development team's skill set look like?
 * What capabilities of the device does the application need to utilize?
 
-
-
 ## Offline capabilities
+
+Despite large-scale adaptation of smartphone technologies, bandwidth and network connectivity issues remain a barrier for wider acceptance of the browser as a service platform in the developing world. Slow and disruptive connections effectively render most web-based applications useless in these environments. Offline capabilities (an application's ability to continue working while disconnected) can therefore be crucial to a project's success in regions undergoing this transition from SMS and USSD based services to mobile web.
+
+#### Ground computing as a catalyst to drive innovation
+
+For a system to be able to operate effortlessly offline, the conventional client-server model is clearly inadequate. Since this aspect of system behavior is largely negelected in other parts of the world, modern cloud architecture is doing little more (if anything) to solve the problem. Instead we need to look beyond the cloud, to an architectural style sometimes referred to as *ground computing* -- applications that run on the device (i.e., on the ground) with robust data replication built in as an integral part of the software stack. 
+
 
 ## Declarative programming techniques
