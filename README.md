@@ -28,5 +28,15 @@ Despite large-scale adaptation of smartphone technologies, bandwidth and network
 
 For a system to be able to operate effortlessly offline, the conventional client-server model is clearly inadequate. Since this aspect of system behavior is largely negelected in other parts of the world, modern cloud architecture is doing little more (if anything) to solve the problem. Instead we need to look beyond the cloud, to an architectural style sometimes referred to as *ground computing* -- applications that run on the device (i.e., on the ground) with robust data replication built in as an integral part of the software stack. 
 
+The [Groundfork synchronization framework](https://github.com/johanneshilden/groundfork-js) was designed specifically for these environments. Important requirements were that:
+
+* User experience is unaffected by network connectivity. (It shouldn't matter if the device is offline.)
+* Syncing is effortless on the part of the user.
+* The solution introduces no coupling between replication/synchronization and business logic. (App developer doesn't have to think about syncing.)
+* No assumption is made w.r.t. replication topology.
+
+Groundfork is open-source software and primarily intended to be used in browser-based applications, i.e., those using the hybrid app approach described earlier.
+
+The solution implements a software design pattern known as the [Command pattern](https://en.wikipedia.org/wiki/Command_pattern). Access to application resources is relayed through a programming interface which enables the system to maintain a transaction log of changes while the device is offline. These changes are subsequently propagated and synchronized with other devices with the help of a web service, when connectivity is available. This service can run in the cloud or on a host system available to all network nodes. 
 
 ## Declarative programming techniques
