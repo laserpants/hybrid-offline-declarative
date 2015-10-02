@@ -2,7 +2,7 @@
 
 ## Hybrid mobile web apps
 
-Hybrid mobile web applications behave more like native apps, but are created using our everyday web technologies (HTML, CSS, and JavaScript). These applications run inside a native WebView container on the target device. From normal users' perspective, this means little or no difference in terms of overall experience. You find these applications in app stores online and install them to your device just like any other app. For application developers, these technologies offer some important advantages over vendor-proprietary SDKs. In particular, web technologies are
+Hybrid mobile web applications behave more like native apps, but are created using our everyday web technologies (HTML, CSS, and JavaScript). These applications run inside a native [WebView](http://developer.android.com/reference/android/webkit/WebView.html) container on the target device. From normal users' perspective, this means little or no difference in terms of overall experience. You find these applications in app stores online and install them to your device just like any other app. For application developers, these technologies offer some important advantages over vendor-proprietary SDKs. In particular, web technologies are
 
 * already familiar to most developers, or otherwise easy to learn;
 * inherently cross-platform; and
