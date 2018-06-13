@@ -22,7 +22,7 @@ Some questions to consider before making the decision to develop a hybrid app:
 
 ## Offline capabilities
 
-Despite large-scale adaptation of smartphone technologies, bandwidth and network connectivity issues remain a barrier for wider acceptance of the browser as a service platform in the developing world. Slow and disruptive connections effectively render most web-based applications useless in these environments. Offline capabilities (an application's ability to continue working while disconnected) can therefore be crucial to a project's success in regions undergoing this transition from SMS and USSD based services to mobile web.
+Despite large-scale adoption of smartphone technologies, bandwidth and network connectivity issues remain a barrier for wider acceptance of the browser as a service platform in the developing world. Slow and disruptive connections effectively render most web-based applications useless in these environments. Offline capabilities (an application's ability to continue working while disconnected) can therefore be crucial to a project's success in regions undergoing this transition from SMS and USSD based services to mobile web.
 
 #### Ground computing as a catalyst to drive innovation
 
